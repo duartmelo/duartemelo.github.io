@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Duarte Melo</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fixed.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,9 +16,50 @@
     <!--Start home Section-->
     <div id="home">
 
-        <nav class="navbar navbar-expand-md navbar-light bg-danger fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#"><img src=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="colapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why">Why Me</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">References</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
+
+        <!--Start landing Page Section-->
+        <div class="landing">
+            <div class="home-wrap">
+                <div class="home-inner">
+
+                </div> 
+            </div>
+        </div>
+
+        <div class="caption text-center">
+            <h1>Welcome to my spot</h1>
+            <a href="#why" class="btn btn-outline-light btn-lg">Why?</a>
+        </div>
+        
+        <!--End Landing Section-->
 
     </div>
 
